@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+	<html>
+	<head>
+
+		<meta charset="UTF-8">
+		<meta name="viewport" contents="width=device-width, initial-scale=1">
+			
+		<title> Romeo and Juliet </title>
+
+		<link href="https://fonts.googleapis.com/css?family=Work+Sans:400,500,700&display=swap" rel="stylesheet">
+
+		<link href="https://fonts.googleapis.com/css?family=EB+Garamond:400,500,700&display=swap" rel="stylesheet">
+
+  		<link href="css/introduction.css" rel="stylesheet">
+
+  	<style>
+  	body{
+  		background-image:url('images/Image3.jpg')
+  	}
+  	</style>
+
+	</head>
+	<body>
+	<header class="nav-header header-text">
+		<div class="logo">
+	  		<a href="index.html"><img class="img-header" src="images/LogoTop.png"></a>
+	 	</div>
+	</div>
+	</header>
+		<div class="topnav">
+			<a href="introduction.html">Home</a>
+			<a href="aboutus.html">About us</a>
+			<a href="castcrew.html">Cast&Crew</a>
+			<a href="tickets.html">Tickets</a>
+			<a href="contact.html">Contact</a>
+			<a href="subscribe.html">Subscribe</a>
+		</div>
+	<div class="main">
+
+	<div class="wrapper-1">
+	<div class="wrapper">
+	<body>
+	<article>
+
+  			 <div class="flex-container">
+  		<div style="flex-grow: 2">
+  			<h1>Romeo & Juliet</h1>
+  			<br>
+  			<p>We invite you to a contemporary, <strong>hip-hop</strong> dance version of Shakespeares Romeo & Juliet. The show will be set in the heart of Dublin city's, <strong>Merrion Square Gardens</strong>. Our version of Romeo & Juliet see's the young couple appear as their metaphorical selves; the Sun and the Moon. The performance is centred around our current climate crisis and challenges the relationship we have with the planet.</p>
+  		</br>
+			<p> <strong> All proceeds will go towards <a href="https://www.worldwildlife.org/"> WWF's</a>  (World Wildlife Fund) efforts to combat Climate Change. </strong> </p>
+
+  			<br>
+  			<h2>"No more light will be shone"</h2>
+  			<br>
+
+			<p>A key element of Shakespeare's original 'Romeo and Juliet' is the result of the young couples love which is poisoned by those feuding around them. It takes the tragic death of the young couple to make their conflicting families make amends with each other.</p>
+			<br/>
+			<p>Our version of the play will reflect that of the current <strong>climate crisis</strong>; the more we feud with our planet, the more it punish us. From the destruction of the Amazon, to the rising sea levels endangering wildlife; how many more tragedies will it take to make mankind realise we need to make amends with the planet. </p>
+		</div>
+
+		<div style="flex-grow: 8">
+				  	<div class="slideshow-container">
+
+				  <div class="mySlides fade">
+				    <div class="numbertext">1 / 4</div>
+				    <img src="images/imageA.png" style="width:100%">
+				    <div class="text"></div>
+				  </div>
+
+				  <div class="mySlides fade">
+				    <div class="numbertext">2 / 4</div>
+				    <img src="images/imageB.png" style="width:100%">
+				    <div class="text"></div>
+				  </div>
+
+				  <div class="mySlides fade">
+				    <div class="numbertext">3 / 4</div>
+				    <img src="images/imageC.png" style="width:100%">
+				    <div class="text"></div>
+				  </div>
+
+				   <div class="mySlides fade">
+				    <div class="numbertext">4 / 4</div>
+				    <img src="images/Image 17.jpg" style="width:100%">
+				    <div class="text"></div>
+				  </div>
+
+				  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+				  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+				</div>
+				<br>
+
+
+				<div style="text-align:center">
+				  <span class="dot" onclick="currentSlide(1)"></span>
+				  <span class="dot" onclick="currentSlide(2)"></span>
+				  <span class="dot" onclick="currentSlide(3)"></span>
+				  <span class="dot" onclick="currentSlide(4)"></span>
+				</div>
+			</div>
+
+			
+</article>
+</div class="wrapper">
+</body>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 2000);
+}
+</script>
+
+</div class="wrapper-1">
+</br>
+
+<footer class="footer-1">
+<a href="https://www.instagram.com"><img src="images/instagram (2).svg" height="65px" width="65"></a>         <a href="https://www.facebook.com"><img src="images/social-media.svg" height="65px" width="65px"></a>
+<br/>
+<div class="copyright">© copyright DID 2019</div>
+</footer>
+</br>
+
+</html>
+   

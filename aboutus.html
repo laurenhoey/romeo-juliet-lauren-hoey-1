@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+	<html>
+	<head>
+
+		<meta charset="UTF-8">
+		<meta name="viewport" contents="width=device-width, initial-scale=1">
+			
+		<title> Romeo and Juliet </title>
+
+		<link href="https://fonts.googleapis.com/css?family=Work+Sans:400,500,700&display=swap" rel="stylesheet">
+
+  		<link href="css/style.css" rel="stylesheet">
+  	<style>
+  	body{
+  		background-image:url('images/Image3.jpg')
+  	}
+  	</style>
+	</head>
+	<header class="nav-header header-text">
+		<div class="logo">
+	  		<a href="index.html"><img class="img-header" src="images/LogoTop.png"></a>
+	 	</div>
+	</div>
+	</header>
+		<div class="topnav">
+			<a href="introduction.html">Home</a>
+			<a class="active" href="aboutus.html">About us</a>
+			<a href="castcrew.html">Cast&Crew</a>
+			<a href="tickets.html">Tickets</a>
+			<a href="contact.html">Contact</a>
+			<a href="subscribe.html">Subscribe</a>
+		</div>
+	<div class="main">
+
+	<div class="wrapper-1">
+	<div class="wrapper">
+	<body>
+	<article>
+
+    <div class="flex-container">
+  		<div style="flex-grow: 2">
+  			<h1>About Us</h1>
+  			<br>
+  			<p> Our performance of Romeo & Juliet combines contemporary issues with contemporary dance forms. The stage will be set to project a light show that the actors/dancers will interact with. The show is set under the stars of <strong>Dublin's Merrion Square Gardens.</strong><p>
+  			</br>
+  			<p>Our mission is to inspire our viewers; both visually and emotionally. Our show is inspired by the Arctic - it's wildlife and landscape. We hope the show challenges the viewer to think about their way of living and how we can improve it. The show will combine the tragic love story with the current crisis we face; <strong>Climate Change.</strong> Raise your own awareness on what is happening in other parts of the world and find out how you can help. Grab a blanket, sit back and enjoy our dazzling light show.</p>
+
+  			<br>
+  			<h2>"No more light will be shone"</h2>
+  			<br>
+
+			<p>When you purchase a ticket to the show, you will be helping us to raise awareness of the effects of Climate Change as well as helping <strong>WWF.</strong> All of the proceeds will go towards <a href="https://www.worldwildlife.org/"> WWF's</a> (World Wildlife Fund) efforts to combat Climate Change.</p>
+
+  		</div>
+
+  		<div style="flex-grow: 8">
+  			<div class="slideshow-container">
+
+				  <div class="mySlides fade">
+				    <div class="numbertext">1 / 9</div>
+				    <img src="images/image1.jpg" style="width:100%">
+				    <div class="text"></div>
+				  </div>
+
+				  <div class="mySlides fade">
+				    <div class="numbertext">2 / 9</div>
+				    <img src="images/imageE.png" style="width:100%">
+				    <div class="text"></div>
+				  </div>
+
+				  <div class="mySlides fade">
+				    <div class="numbertext">3 / 9</div>
+				    <img src="images/imageF.png" style="width:100%">
+				    <div class="text"></div>
+				  </div>
+
+				   <div class="mySlides fade">
+				    <div class="numbertext">4 / 9</div>
+				    <img src="images/imageG.png" style="width:100%">
+				    <div class="text"></div>
+				  </div>
+
+				   <div class="mySlides fade">
+				    <div class="numbertext">5 / 9</div>
+				    <img src="images/imageH.png" style="width:100%">
+				    <div class="text"></div>
+				  </div>
+
+				   <div class="mySlides fade">
+				    <div class="numbertext">6 / 9</div>
+				    <img src="images/imageI.png" style="width:100%">
+				    <div class="text"></div>
+				  </div>
+
+				   <div class="mySlides fade">
+				    <div class="numbertext">7 / 9</div>
+				    <img src="images/imageJ.png" style="width:100%">
+				    <div class="text"></div>
+				  </div>
+
+				   <div class="mySlides fade">
+				    <div class="numbertext">8 / 9</div>
+				    <img src="images/imageK.png" style="width:100%">
+				    <div class="text"></div>
+				  </div>
+
+				   <div class="mySlides fade">
+				    <div class="numbertext">9 / 9</div>
+				    <img src="images/imageL.png" style="width:100%">
+				    <div class="text"></div>
+				  </div>
+
+				  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+				  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+				</div>
+				<br>
+
+
+				<div style="text-align:center">
+				  <span class="dot" onclick="currentSlide(1)"></span>
+				  <span class="dot" onclick="currentSlide(2)"></span>
+				  <span class="dot" onclick="currentSlide(3)"></span>
+				  <span class="dot" onclick="currentSlide(4)"></span>
+				  <span class="dot" onclick="currentSlide(5)"></span>
+				  <span class="dot" onclick="currentSlide(6)"></span>
+				  <span class="dot" onclick="currentSlide(7)"></span>
+				  <span class="dot" onclick="currentSlide(8)"></span>
+				  <span class="dot" onclick="currentSlide(9)"></span>
+				</div>
+			</div>
+
+  		</div>
+	</div>
+
+	</div>
+		
+
+</article>
+</div class="wrapper">
+</body>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 2000);
+}
+</script>
+</div class="wrapper-1">
+</br>
+
+<footer class="footer-1">
+<a href="https://www.instagram.com"><img src="images/instagram (2).svg" height="65px" width="65"></a>         <a href="https://www.facebook.com"><img src="images/social-media.svg" height="65px" width="65px"></a>
+<br/>
+<div class="copyright">© copyright DID 2019</div>
+</footer>
+</br>
+
+</html>

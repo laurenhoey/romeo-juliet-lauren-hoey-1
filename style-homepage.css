@@ -1,0 +1,29 @@
+@media(max-width:400px){
+	.body{
+		background:100%;
+		position:relative;
+	}
+}
+body{
+	background: url(images/image.jpg);
+	background-repeat:no-repeat;
+	background-size:300%;
+}
+.img-header{
+	position:fixed;
+	top:50%;
+	left:50%;
+	transform: translate(-50%, -50%);
+	width: 610px;
+	height: 250px;
+}
+.footer-1{
+	text-align:center;
+	padding:15px;
+	font-size:17px;
+	color:white;
+	position:absolute;
+	bottom:0;
+	height: 40px;
+	margin-top:40px;
+}

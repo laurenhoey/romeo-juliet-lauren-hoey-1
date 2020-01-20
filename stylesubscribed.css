@@ -1,0 +1,147 @@
+@media(min-width:320px){
+  .img-home{
+ 	width:100%;
+ }
+}
+
+.nav-header{
+	font-family:'Work Sans', sans-serif;
+	text-align: left;
+	font-size:50px;
+	letter-spacing:5px;
+	background-image:url(/images/image3.jpg);
+	margin:2px;
+	padding: 25px;
+	color:white;
+	border
+}
+.logo{
+	text-align:center;
+	font-size:60px;
+	color:white;
+}
+.nav-footer{
+	font-size:20px;
+}
+nav.nav-wrapper a:hover{
+	border-bottom: 2px rgb(255,255,255);
+}
+.topnav a:hover{
+		background-color:rgb(225,225,225);
+		color:rgb(10,21,42);
+}
+.topnav{
+	overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    max-width: 1100px;
+    box-sizing: border-box;
+    padding: 0 20px;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    background-color: rgb(10,21,42);
+    justify-content: space-between;
+	overflow:hidden;
+}
+.topnav a{
+	color:white;
+	text-align: center;
+	padding:14px 16px;
+	margin-bottom:15px;
+	margin-top:15px;
+	text-decoration:none;
+	font-size:32px;
+}
+
+.column{
+	float:left;
+	width:65%;
+}
+.column-1{
+	float:right;
+	width:28%;
+}
+.column{
+	content:"";
+	display:table-column;
+	clear:all;
+}
+h1{
+	font-family:'Eb Garamond', serif;
+	color:rgb(15,21,32);
+	margin:0;
+	font-style: bold;
+	font-size: 38px;
+}
+
+h2{
+	font-family:'Eb Garamond', serif;
+	color:white;
+	margin:0;
+	font-style: bold;
+	background-color:rgb(10,21,42);
+	font-size: 26px;
+	text-align: center;
+}
+
+
+p{
+	font-family:'Eb Garamond', serif;
+	color:rgb(15,21,32);
+	margin:0;
+	font-style: bold;
+	font-size: 18px;
+}
+
+body{
+	font-family:'Eb Garamond', serif;
+	font-size: 23px;
+	background-color:rgb(15,21,32);
+}
+article{
+	padding:20px;
+}
+
+.img-home{
+	width: 100%;
+	max-width:100%;
+}
+
+.img-header{
+	width: 350px;
+	height: 100px;
+}
+
+.wrapper{
+	width:100%;
+	max-width:1100px;
+	margin:0 auto;
+	background-color: rgba(255,255,255,0.7);
+	margin-top: 30px;
+}
+.footer-1{
+	text-align:center;
+	background-color:white;
+	opacity:70%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    max-width: 1062px;
+    padding: 0 20px;
+}
+.copyright{
+	color:rgb(10,21,42);
+	padding:5px;
+}
+
+.flex-container {
+  display: flex;
+}
+
+.flex-container > div {
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+}
